@@ -13,9 +13,16 @@ In the vmware terminal follow these steps::
 
 	* sudo apt-get install git-core
 
-	* git clone git@github.com:markotibold/ubuntu-django-setup.git && cd ubuntu-django-setup	
+	* git clone https://github.com/markotibold/ubuntu-django-setup && cd ubuntu-django-setup	
 
 	* ./install.sh
+
+Keys
+----
+
+If you want to reuse your ssh-keys that you already have install on your Mac, just scp the to the VM::
+
+	scp -r ~/.ssh user@IPADDRESS:
 		
 Folder sharing
 --------------

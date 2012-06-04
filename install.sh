@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo dpkg-reconfigure tzdata
+sudo apt-get update
 sudo dpkg --set-selections < ubuntu_requirements.txt
 sudo apt-get dselect-upgrade
 
