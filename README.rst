@@ -1,4 +1,4 @@
-Ubuntu 10.4 Django Development setup
+Ubuntu 10.4 Django Development Setup
 ====================================
 
 A simple reference guide for quickly setting up an ubuntu Virtual Machine in Fusion specifically for
