@@ -20,14 +20,14 @@ In the vmware terminal follow these steps::
 Keys
 ----
 
-If you want to reuse your ssh-keys that you already have install on your Mac, just scp the to the VM::
+If you want to reuse your ssh-keys that you already have installed on your Mac, just scp them to the VM::
 
 	scp -r ~/.ssh user@IPADDRESS:
 		
 Folder sharing
 --------------
 
-If you keep your git repo's in ~/devshare on your Mac, this is what you'd probably want to do:
+If you keep your git repo's in ~/devshare on your Mac, this is what you'll probably want to do:
 
 	ln -s /mnt/hgfs/<USER>/devshare/
 
