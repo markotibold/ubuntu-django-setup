@@ -13,7 +13,7 @@ In the vmware terminal follow these steps::
 
 	* sudo apt-get install git-core
 
-	git clone git@github.com:markotibold/ubuntu-django-setup.git && cd ubuntu-django-setup	
+	* git clone git@github.com:markotibold/ubuntu-django-setup.git && cd ubuntu-django-setup	
 
 	* ./install.sh
 		
