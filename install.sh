@@ -8,3 +8,6 @@ sudo easy_install pip virtualenvwrapper
 mkdir -p ~/envs
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc	
 echo 'export LC_CTYPE="en_US.UTF-8"' >> ~/.bashrc
+echo 'export WORKON_HOME=~/envs' >> ~/.bashrc
+echo 'alias rs="python manage.py runserver 0:8000"' <<~/.bashrc
+

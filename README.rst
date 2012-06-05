@@ -4,6 +4,7 @@ Ubuntu 10.4 Django Development Setup
 A simple reference guide for quickly setting up an ubuntu Virtual Machine in Fusion specifically for
 developing Django web applications.
 
+
 Fusion
 ------
 
@@ -17,6 +18,7 @@ In the vmware terminal follow these steps::
 
 	* ./install.sh
 
+
 Keys
 ----
 
@@ -28,6 +30,7 @@ If you want to reuse your ssh-keys that you already have installed on your Mac, 
 
 	scp -r ~/.ssh/id_rsa* user@host:
 		
+
 Folder sharing
 --------------
 
@@ -35,3 +38,8 @@ If you keep your git repo's in ~/devshare on your Mac, this is what you'll proba
 
 	ln -s /mnt/hgfs/<USER>/devshare/
 
+
+Notes
+-----
+
+* If you use Sequel Pro, connect using ssh to save yourself the hassle of granting permissions
