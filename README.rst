@@ -20,9 +20,13 @@ In the vmware terminal follow these steps::
 Keys
 ----
 
+Add your public key to the authorized keys::
+
+	cat ~/.ssh/id_rsa.pub | ssh user@host 'cat >> ~/.ssh/authorized_keys'
+
 If you want to reuse your ssh-keys that you already have installed on your Mac, just scp them to the VM::
 
-	scp -r ~/.ssh user@IPADDRESS:
+	scp -r ~/.ssh/id_rsa* user@host:
 		
 Folder sharing
 --------------
