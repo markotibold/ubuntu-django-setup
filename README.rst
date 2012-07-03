@@ -19,6 +19,24 @@ In the vmware terminal follow these steps::
 	* ./install.sh
 
 
+VmWare tools
+````````````
+
+If you want'm, install'm like so::
+
+	sudo apt-get install linux-headers-`uname -r`
+
+	Install Vmware Tools from fusion
+
+	sudo mkdir -p /media/cdrom 
+	
+	sudo mount /dev/cdrom /media/cdrom
+
+	tar -xvf /media/cdrom/Vm[..].gz
+
+	run the install script as super user
+
+
 Keys
 ----
 
