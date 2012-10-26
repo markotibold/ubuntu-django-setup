@@ -54,7 +54,7 @@ Folder sharing
 
 If you keep your git repo's in ~/devshare on your Mac, this is what you'll probably want to do:
 
-	ln -s /mnt/hgfs/<USER>/devshare/
+	ln -s /mnt/hgfs/devshare/
 
 
 Notes
